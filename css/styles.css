@@ -1,9 +1,9 @@
-/* Geral */
+/* GERAL */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: helvetica;
+  font-family: Helvetica;
 }
 
 body {
@@ -18,5 +18,17 @@ body {
 
 #banner-container,
 #form-container {
-    flex: 1 1 0;
+  flex: 1 1 0;
+  width: 50%;
+}
+
+#banner-container {
+  text-align: right;
+}
+
+#banner-container img {
+  width: 100%;
+  margin-right: 15px;
+  margin-top: 25px;
+  max-width: 380px;
 }
